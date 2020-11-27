@@ -10,7 +10,7 @@ export default class Home extends Component {
       task: "",
       list: [
         "Check it out in GitHub",
-        "Made with by Kishore Shiraguppi",
+        "Made by Kishore Shiraguppi",
         "Try making a new task above 👆",
         "Build your own!",
       ],

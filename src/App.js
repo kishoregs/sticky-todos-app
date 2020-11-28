@@ -91,11 +91,11 @@ export default class Home extends Component {
     return (
       <div className="header">
         <h1>
-          My tasks
+          Sticky To Dos
           <Emoji text="✍" />
         </h1>
         <input
-          placeholder="Ex: Call home."
+          placeholder="Ex: Call home tonight."
           maxLength={150}
           value={this.state.task}
           type="text"

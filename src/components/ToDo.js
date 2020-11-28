@@ -49,7 +49,7 @@ export default (props) => {
       <ul>{rlist}</ul>
       {props.done.length && (
         <h1>
-          Completed tasks <Emoji text="👏" />
+          Completed <Emoji text="👏" />
         </h1>
       )}
       <ul>{dlist}</ul>

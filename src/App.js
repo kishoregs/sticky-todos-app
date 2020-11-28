@@ -95,8 +95,8 @@ export default class Home extends Component {
           <Emoji text="✍" />
         </h1>
         <input
-          placeholder="Ex: Write a new blog post"
-          maxLength={80}
+          placeholder="Ex: Call home."
+          maxLength={150}
           value={this.state.task}
           type="text"
           onKeyPress={this.handleKey}
